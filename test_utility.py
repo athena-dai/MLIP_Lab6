@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import numpy as np
 from prediction_demo import data_preparation,data_split,train_model,eval_model
-
+#samples housing data
 @pytest.fixture
 def housing_data_sample():
     return pd.DataFrame(
